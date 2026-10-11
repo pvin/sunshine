@@ -5,15 +5,17 @@ Placeholder photography (replace with property-specific photos when available):
 
 - hero.jpg — modern apartment building exterior (Unsplash)
 - about.jpg — apartment living area (Unsplash)
-- gallery-1.jpg — Indian mid-rise apartment block with balconies (Unsplash, IIT Roorkee)
-- gallery-2.jpg — living room interior, India (Unsplash)
-- gallery-3.jpg — modular kitchen, Indian home interior (Unsplash)
-- gallery-4.jpg — bedroom, Pune, India (Unsplash)
-- gallery-5.jpg — landscaped garden path, India (Unsplash)
-- gallery-6.jpg — apartment buildings and balcony life, urban India (Unsplash)
+- gallery-1.jpg — white apartment building with greenery, Bengaluru (Unsplash, Punid Ramesh)
+- gallery-2.jpg — Indian flat living room with pooja nook and tiles (Unsplash)
+- gallery-3.jpg — modular kitchen interior (Unsplash, Sanju Pandita)
+- gallery-4.jpg — bedroom, Pune, India (Unsplash, New Leaf Designs)
+- gallery-5.jpg — apartment building with lush greenery, Kozhikode, Kerala (Pexels, Adarsh Mp)
+- gallery-6.jpg — apartment tower with parking at arrival, Surat, India (Unsplash, Parth Savani)
 - unit-placeholder.jpg — furnished apartment interior (Unsplash)
 
-Licensed under the Unsplash License (https://unsplash.com/license).
+Unsplash: https://unsplash.com/license
+Pexels: https://www.pexels.com/license/
+
 Downloaded for offline / static hosting.
 
 Recommended: Replace gallery and hero images with licensed exterior, entrance,
