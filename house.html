@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Browse available 2 & 3 BHK homes at Sunshine Apartment, Villankurichi, Coimbatore."
+    />
+    <title>Available Homes | Sunshine Apartment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header is-scrolled" id="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__logo" href="index.html">Sunshine <span>Apartment</span></a>
+        <button
+          type="button"
+          class="nav__toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a class="nav__link" href="index.html#home">Home</a></li>
+          <li><a class="nav__link" href="index.html#about">About</a></li>
+          <li><a class="nav__link" href="index.html#amenities">Amenities</a></li>
+          <li><a class="nav__link is-active" href="house.html">Available Homes</a></li>
+          <li><a class="nav__link" href="index.html#gallery">Gallery</a></li>
+          <li><a class="nav__link" href="index.html#location">Location</a></li>
+          <li><a class="nav__link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <header class="page-hero">
+      <div class="container">
+        <p class="section-label reveal">Residences</p>
+        <h1 class="section-title reveal">Available Homes</h1>
+        <p class="section-intro reveal" style="margin-inline: auto">
+          Brand-new 2 &amp; 3 BHK apartments for families. Filter by layout, facing, and availability.
+        </p>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" aria-labelledby="listings-heading">
+        <div class="container">
+          <h2 id="listings-heading" class="visually-hidden">House listings</h2>
+          <div
+            id="homes-root"
+            data-listings-mode="full"
+            data-show-conditions="true"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container contact-wrap">
+          <article class="contact-card reveal">
+            <h2 class="section-title" style="font-size: 1.5rem">Interested in a home?</h2>
+            <div class="contact-card__item">
+              <strong>Phone</strong>
+              <a class="contact-card__phone" href="tel:7708744661">7708744661</a>
+            </div>
+            <div class="contact-card__actions">
+              <a class="btn btn--primary" href="tel:7708744661">Call Now</a>
+              <a
+                class="btn btn--whatsapp"
+                href="https://wa.me/917708744661"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WhatsApp</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <p class="footer__brand">Sunshine Apartment</p>
+            <p class="footer__tagline">
+              Modern family living in Villankurichi, Coimbatore.
+            </p>
+          </div>
+          <nav class="footer__nav" aria-label="Footer">
+            <a href="index.html#about">About</a>
+            <a href="index.html#amenities">Amenities</a>
+            <a href="house.html">Homes</a>
+            <a href="index.html#location">Location</a>
+            <a href="index.html#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; <span id="year"></span> Sunshine Apartment. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
