@@ -3,9 +3,15 @@ Image sources for Sunshine Apartment static site
 
 Placeholder photography (replace with property-specific photos when available):
 
-- hero.jpg, about.jpg, gallery-1.jpg through gallery-6.jpg, unit-placeholder.jpg
-  Source: picsum.photos (Lorem Picsum) — free for use per Picsum terms.
-  Downloaded during site build for offline / Cloudflare Pages deployment.
+- hero.jpg — modern apartment building exterior (Unsplash)
+- about.jpg — apartment living area (Unsplash)
+- gallery-1.jpg — residential building exterior; gallery-2 living room;
+  gallery-3 kitchen; gallery-4 bedroom; gallery-5 outdoor/community space;
+  gallery-6 apartment entrance lobby (Unsplash)
+- unit-placeholder.jpg — furnished apartment interior (Unsplash)
+
+  Licensed under the Unsplash License (https://unsplash.com/license).
+  Downloaded for offline / static hosting.
 
 Recommended: Replace gallery and hero images with licensed exterior, entrance,
 and surroundings photos of Sunshine Apartment (e.g. your own photography or
