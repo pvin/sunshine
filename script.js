@@ -61,6 +61,7 @@
     createHouse("B-414", "East", 2),
     createHouse("B-124", "East", 2),
     createHouse("A-203", "East", 3),
+    
   ];
 
   /* —— Listings UI —— */
